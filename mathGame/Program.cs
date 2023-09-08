@@ -43,17 +43,17 @@ else
 
 void MultiplicationGame(string message)
 {
-    MultiplicationGame("Multiplication game selected");
+    MultiplicationGame(message);
 }
 
 void DivisionGame(string message)
 {
-    Console.WriteLine("Division game selected");
+    Console.WriteLine(message);
 }
 
 void AdditionGame(string message)
 {
-    Console.WriteLine("Addition game selected");
+    Console.WriteLine(message);
 }
 void SubtractionGame(string message)
 {
